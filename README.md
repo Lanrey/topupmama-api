@@ -8,3 +8,19 @@ Steps to run this project:
 4. Run `npm start` command
 
 # Link (https://topupmamasola.herokuapp.com/)
+
+# API Endpoints
+
+│ Endpoints              │ Methods │
+├────────────────────────┼─────────┤
+│ /api/v1/comment/create │ POST    │
+├────────────────────────┼─────────┤
+│ /api/v1/books/:id      │ GET     │
+├────────────────────────┼─────────┤
+│ /api/v1/books          │ GET     │
+├────────────────────────┼─────────┤
+│ /api/v1/characters     │ GET     │
+├────────────────────────┼─────────┤
+│ /                      │ GET     │
+├────────────────────────┼─────────┤
+│ *                      │ GET     │

@@ -9,7 +9,8 @@ const allowedSortTypes = ['asc', 'des']
 
 
 const getCharacters = catchAsync(async function (req: Request, res: Response) {
-    const filter = pick(req.query, [" gender", "page "]);
+    const filter = pick(req.query, ["page", "gender"]);
+   
     const { sortBy, sortType, } = req.query as any
 
     if (sortBy && !allowedSortKeys.includes(sortBy)) {

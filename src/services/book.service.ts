@@ -17,7 +17,7 @@ const getBooks = async (filter: Object,) => {
     let booksAndComments = [] as any
     for (let i = 0; i < books.length; i++) {
       let book = books[i]
-      let bookId = book.url.charAt(book.url.length - 1);
+      let bookId = book.url.split("/").pop()
       let { count } = await commentService.fetchComments({ bookId });
       booksAndComments.push({ ...book, count })
     }

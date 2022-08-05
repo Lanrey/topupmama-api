@@ -7,7 +7,8 @@ Steps to run this project:
 3. Run `npm run build`
 4. Run `npm start` command
 
-# Link (https://topupmamasola.herokuapp.com/)
+# Backend Link (https://topupmamasola.herokuapp.com/)
+# Frontend Link (https://topupmamasola.netlify.app/)
 
 # API Endpoints
 
